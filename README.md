@@ -9,6 +9,7 @@
 - Visual Studio Code
 - Install cypress from VS code
 - Install mochawesome, mochawesome-merge and mochawesome-report-generator for HTML report generation from VS code.
+- Git for code management
 
 
 ### This repo consists of code to automate automationpractice.com and includes below scenarios.
