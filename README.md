@@ -26,9 +26,9 @@ Here we are entering user name and password, login to automationpractice.com and
 logged in user name is displaying on the right top corner of the home page.
   
 **Scenario 2:**: Add a product to cart :-
-Here we are adding a product by checking product exists and in stock.
-And verifying that the product is available in cart and also checking there is only one product in cart.
-  
+Here we are adding a product by checking product exists and in stock. 
+And checking only one product is available in cart and get the total price of it for later verification. 
+Then verifying order is successfuly placed and order amount is same as the total amount noted before.
   
 ## How to run the test??
 Open a terminal in VS code
@@ -50,7 +50,9 @@ In terminal run below command
 
 
 
-> Note: All the user related data have been driven from the cypress.json file
+> **Note:** 
+> All the user related data have been driven from the cypress.json file
+> Common methods have been placed under ``` CypressAutomation\cypress\support\commands.js ```
 
 
 
