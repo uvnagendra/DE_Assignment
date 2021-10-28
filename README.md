@@ -31,7 +31,7 @@ logged in user name is displaying on the right top corner of the home page.
 
 Here we are adding a product by checking product exists and in stock. 
 And checking only one product is available in cart and get the total price of it for later verification. 
-Then verifying order is successfuly placed and order amount is same as the total amount noted before.
+Then verifying order is successfully placed and order amount is same as the total amount noted before.
   
 ## How to run the test??
 Open a terminal in VS code
