@@ -17,15 +17,17 @@
 1. Navigate to http://automationpractice.com/index.php
 2. Login with valid user 
 3. Select product (any 1 or more products) and add to cart
-4. and place the order and assert order placement is completed 
+4. And place the order and assert order placement is completed 
 
 **Test Suite**: Login and add a product to cart
 
 **Scenario 1**: Login to automationpractice.com:-
+
 Here we are entering user name and password, login to automationpractice.com and checking
 logged in user name is displaying on the right top corner of the home page.
   
 **Scenario 2**: Add a product to cart :-
+
 Here we are adding a product by checking product exists and in stock. 
 And checking only one product is available in cart and get the total price of it for later verification. 
 Then verifying order is successfuly placed and order amount is same as the total amount noted before.
