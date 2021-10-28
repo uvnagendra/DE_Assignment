@@ -1,0 +1,18 @@
+{
+    "execTimeout":100000,
+    "env":{
+            "usr_mail_id":"nagendraprasadrao321@gmail.com",
+            "passwd":"3pjQV8BM3p7!Ksi",
+            "usrname":"Nagendra Prasad",
+            "product":"Faded Short Sleeve T-shirts"
+        },
+    "reporter": "mochawesome",
+    "reporterOptions":{
+        "reportDir": "cypress/reports",
+        "reportFilename":"report",
+        "overwrite":true,
+        "html":true,
+        "json":false,
+        "charts":true
+    }
+}
