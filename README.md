@@ -36,18 +36,20 @@ Then verifying order is successfuly placed and order amount is same as the total
 Open a terminal in VS code
 
 1. To open cypress and run script:
-In terminal run ``` npx cypress open ``` command to open cypress 
-In cypress click on ``` add_prod_to_cart.js ```
+
+    In terminal run ``` npx cypress open ``` command to open cypress
+ 
+    In cypress click on ``` add_prod_to_cart.js ```
 
 2. Run script in headless mode
-In terminal run below command
+    In terminal run below command
 
-``` npx cypress run --spec "cypress\integration\shopping_cart\add_prod_to_cart.js" ```
+    ``` npx cypress run --spec "cypress\integration\shopping_cart\add_prod_to_cart.js" ```
 
 3. Run script in headed mode
-In terminal run below command
+    In terminal run below command
 
-``` npx cypress run --spec "cypress\integration\shopping_cart\add_prod_to_cart.js" --headed ```
+    ``` npx cypress run --spec "cypress\integration\shopping_cart\add_prod_to_cart.js" --headed ```
 
 
 
