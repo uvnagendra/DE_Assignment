@@ -25,7 +25,7 @@
 Here we are entering user name and password, login to automationpractice.com and checking
 logged in user name is displaying on the right top corner of the home page.
   
-**Scenario 2:**: Add a product to cart :-
+**Scenario 2**: Add a product to cart :-
 Here we are adding a product by checking product exists and in stock. 
 And checking only one product is available in cart and get the total price of it for later verification. 
 Then verifying order is successfuly placed and order amount is same as the total amount noted before.
@@ -50,8 +50,10 @@ In terminal run below command
 
 
 
-> **Note:** 
-> All the user related data have been driven from the cypress.json file
+> **Note**:
+
+> All the user related data have been driven from the ``` cypress.json file ```
+
 > Common methods have been placed under ``` CypressAutomation\cypress\support\commands.js ```
 
 
