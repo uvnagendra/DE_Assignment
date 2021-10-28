@@ -11,7 +11,7 @@
 - Install mochawesome, mochawesome-merge and mochawesome-report-generator for HTML report generation from VS code.
 
 
-### This branch consists of code to automate automationpractice.com and includes below scenarios.
+### This repo consists of code to automate automationpractice.com and includes below scenarios.
 
 **Acceptance Criteria**
 1. Navigate to http://automationpractice.com/index.php
@@ -59,6 +59,8 @@ Open a terminal in VS code
 > All the user related data have been driven from the ``` cypress.json file ```
 
 > Common methods have been placed under ``` CypressAutomation\cypress\support\commands.js ```
+
+> HTML report is available in ``` cypress/reports ```
 
 
 
